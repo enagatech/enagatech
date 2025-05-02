@@ -1,0 +1,120 @@
+/*-------------------------
+  全体
+-------------------------*/
+body {
+    font-family: "Century Gothic", "メイリオ", sans-serif;
+    color: #706868;
+    letter-spacing: 0.15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+}
+
+.main {
+    margin: 3%;
+    background-color: #F5EEE6;
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    padding: 5% 10%;
+}
+
+input, select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    letter-spacing: inherit;
+    border: none;
+    width: 100%;
+  }
+
+/*-------------------------
+  テーブル
+-------------------------*/
+table {
+    margin: 0 auto;
+    width: 100%;
+    table-layout: fixed;
+    word-break: break-word;
+}
+
+table thead {
+    background-color: #F3D7CA;
+}
+
+table tbody {
+    background-color: white;
+}
+
+table th {
+    padding: 5px;
+    font-size: 10px;
+}
+
+table td {
+    height: 30px;
+    padding: 8px;
+}
+
+/*-------------------------
+  タスク入力フォーム
+-------------------------*/
+.addTask {
+    margin-bottom: 60px;
+}
+
+#input {
+    height: 90%;
+    width: 100%;
+    border: none;
+}
+
+#completedBy {
+    border: none;
+    width: 100%;
+}
+
+.addButton_wrapper {
+    text-align: right;
+}
+
+#addButton {
+    background-color: #E6A4B4;
+    color: white;
+    font-size: 25px;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#addButton:hover {
+    opacity: 70%;
+}
+
+#addButton:active {
+    transform: scale(0.90);
+}
+
+/*-------------------------
+  ToDo
+-------------------------*/
+.todoList {
+    margin-bottom: 60px;
+}
+
+.status-select {
+    height: 30px;
+}
+
+/*-------------------------
+  Completed
+-------------------------*/
+.completed {
+    margin-bottom: 60px;
+}

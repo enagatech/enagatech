@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+  <div class="main">
+
+    <!--タイトル-->
+    <header>
+        <h1>ToDo List</h1>
+    </header>
+    <main>
+
+    <!--タスク入力フォーム-->
+    <h2>Add Task</h2>
+    <div class ="addTask">
+        <table>
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Completed By</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td><input type="text" id="input" placeholder="入力" required></td>
+                  <td><input type="date" id="completedBy" required></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class = "addButton_wrapper">
+          <input type="button" value="＋" id="addButton"></td>
+        </div>
+      </div>
+    
+    <!--ToDoリスト-->
+      <div class="todoList">
+        <h2>ToDo</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th class="itemName">Task</th>
+                    <th class="itemComplete">Completed By</th>
+                    <th class="status">Status</th>
+                </tr>
+            </thead>
+            <tbody id="todoList"></tbody>
+        </table>
+      </div>
+    
+    <!--完了済みリスト-->
+      <div class ="completed">
+        <h2>Completed</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th class="itemName">Task</th>
+                    <th class="itemComplete">Completed By</th>
+                    <th class="itemCompletedOn">Completed On</th>
+                </tr>
+            </thead>
+            <tbody id="completedList"></tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
