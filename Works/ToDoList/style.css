@@ -33,7 +33,7 @@ input, select {
   }
 
 /*-------------------------
-  テーブル
+  全体 - テーブル
 -------------------------*/
 table {
     margin: 0 auto;
@@ -58,6 +58,21 @@ table th {
 table td {
     height: 30px;
     padding: 8px;
+}
+
+/*-------------------------
+  ホームに戻る
+-------------------------*/
+.backToHome {
+    display: flex;
+}
+
+.backToHome p {
+    margin-right: 5px;
+}
+
+.backToHome a {
+    margin: auto 0;
 }
 
 /*-------------------------
