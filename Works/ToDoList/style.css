@@ -33,7 +33,7 @@ input, select {
   }
 
 /*-------------------------
-  全体 - テーブル
+  テーブル
 -------------------------*/
 table {
     margin: 0 auto;
@@ -42,22 +42,31 @@ table {
     word-break: break-word;
 }
 
-table thead {
+thead {
     background-color: #F3D7CA;
 }
 
-table tbody {
+tbody {
     background-color: white;
 }
 
-table th {
+th {
     padding: 5px;
     font-size: 10px;
 }
 
-table td {
+td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     height: 30px;
     padding: 8px;
+}
+
+td input {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 /*-------------------------
@@ -83,8 +92,6 @@ table td {
 }
 
 #input {
-    height: 90%;
-    width: 100%;
     border: none;
 }
 

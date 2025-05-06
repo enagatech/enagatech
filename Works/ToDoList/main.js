@@ -108,4 +108,4 @@ function moveToCompleted(text, due, completedAt) {
 // 2. レスポンシブ対応
 // 3. todoを日付順でソートできるようにしたい
 // 4. todoに削除ボタンを追加
-// 5. 完了時のアニメーション追加let addButton = document.getElementById("addButton");
+// 5. 完了時のアニメーション追加;
