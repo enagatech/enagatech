@@ -32,6 +32,12 @@ input, select {
     width: 100%;
   }
 
+  input[type="date"] {
+    width: 97%;
+    box-sizing: border-box;
+  }
+
+
 /*-------------------------
   テーブル
 -------------------------*/
@@ -56,18 +62,17 @@ th {
 }
 
 td {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
     height: 30px;
-    padding: 8px;
+    padding: 9px;
 }
 
 td input {
-    width: 100%;
-    max-width: 100%;
+    width: 99%;
+    height: 100%;
+    max-width: 99%;
     box-sizing: border-box;
 }
+
 
 /*-------------------------
   ホームに戻る
@@ -97,7 +102,7 @@ td input {
 
 #completedBy {
     border: none;
-    width: 100%;
+    padding-left: 0.5px;
 }
 
 .addButton_wrapper {
@@ -107,12 +112,13 @@ td input {
 #addButton {
     background-color: #E6A4B4;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     border: none;
     height: 40px;
     width: 40px;
     border-radius: 5px;
     margin-top: 10px;
+    text-align: center;
 }
 
 #addButton:hover {
