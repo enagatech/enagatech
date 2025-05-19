@@ -184,6 +184,8 @@ li {
 
 .works-img img {
   border: 1px solid #e6e6e6;
+  height: 185px;
+  width: 330px;
 }
 
 .works-name {
