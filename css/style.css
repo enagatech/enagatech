@@ -216,6 +216,7 @@ li {
 
 .profile-img img {
   border-radius: 50%;
+  width: 180px;
 }
 
 .profile-body {
@@ -415,6 +416,12 @@ li {
     margin-bottom: 30px;
   }
 
+  .works-img img {
+    border: 1px solid #e6e6e6;
+    height: 80px;
+    width: 150px;
+  }
+
   /* Skill */
   .skill-list {
     display: block;
@@ -435,7 +442,7 @@ li {
     display: block;
   }
   .profile-img {
-    width: 150px;
+    width: 80px;
     margin: 0 auto;
     margin-bottom: 25px;
   }
